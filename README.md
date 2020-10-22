@@ -11,3 +11,6 @@ Demonstrate web API using django framework
     c. `django.get_version()`
 
 6. Create first project: `django-admin startproject datacrunch` or clone project to continue work
+7. `cd datacrunch` then `python manage.py migrate`
+8. Start development server in project's root folder: `python manage.py runserver`
+9. Open http://localhost:8000 to check the web app
