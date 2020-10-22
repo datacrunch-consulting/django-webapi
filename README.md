@@ -10,4 +10,4 @@ Demonstrate web API using django framework
     b. `import django`
     c. `django.get_version()`
 
-6. Create first project: `django-admin startproject datacrunch`
+6. Create first project: `django-admin startproject datacrunch` or clone project to continue work
