@@ -17,3 +17,7 @@ Demonstrate web API using django framework
 8. Start development server in project's root folder: `python manage.py runserver`
 9. Open http://localhost:8000 to check if the web app is running
 10. Create blog application: `python manage.py startapp blog` or clone is fine.
+11. Edit settings.py file to include `blog.apps.BlogConfig` under INSTALLED_APPS
+12. Migrate database for blog application: `python manage.py makemigrations blog`
+13. Sync database with new model: `python manage.py migrate`
+14. repeat steps 12 and 13 anytime you modify the models.py file
