@@ -21,3 +21,7 @@ Demonstrate web API using django framework
 12. Migrate database for blog application: `python manage.py makemigrations blog`
 13. Sync database with new model: `python manage.py migrate`
 14. repeat steps 12 and 13 anytime you modify the models.py file
+
+# Creating Admin Site
+15. `python manage.py createsuperuser` in Project Root Folder
+16. Go to http://localhost:8080/admin
